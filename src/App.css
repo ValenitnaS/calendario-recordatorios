@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('./assets/fondo.jpeg'); /* Imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco con transparencia */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #d08eb2;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="date"],
+.formulario input[type="time"] {
+  padding: 10px;
+  margin: 10px 5px;
+  border: 2px solid #f8d7da;
+  border-radius: 10px;
+  outline: none;
+  width: 60%;
+}
+
+.formulario button {
+  padding: 10px 15px;
+  background-color: #ff8fa3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #e07b91;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.lista li {
+  background-color: #f0f0f0;
+  border-left: 8px solid #e2d5f9;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista li.cumplido {
+  background-color: #d4edda;
+  text-decoration: line-through;
+  color: #999999;
+}
+
+.lista button {
+  background-color: #d08eb2;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.lista button:hover {
+  background-color: #b97599;
+}
+
+.formulario select {
+  padding: 10px;
+  margin: 10px 5px;
+  border: 2px solid #f8d7da;
+  border-radius: 10px;
+  outline: none;
+  width: 64%;
+  font-size: 18px;
+  background-color: #fff0f5;
+  color: #d08eb2;
+}
+
+@media (max-width: 600px) {
+  .App {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .formulario input,
+  .formulario select {
+    width: 100%;
+  }
+}
