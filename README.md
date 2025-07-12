@@ -1,3 +1,5 @@
+Aplicación web para gestionar eventos y recordatorios diarios. Desarrollada con Vite y React.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
