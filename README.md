@@ -1,14 +1,36 @@
-Aplicación web para gestionar eventos y recordatorios diarios. Desarrollada con Vite y React.
+# 📅 Calendario de Recordatorios
 
-# React + Vite
+Este proyecto es una aplicación web desarrollada con **React + Vite** que permite a los usuarios crear, visualizar y gestionar recordatorios personalizados con fecha, hora y emojis.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✨ Características
 
-Currently, two official plugins are available:
+- Agregar recordatorios con fecha, hora y tipo (emoji).
+- Ver el próximo recordatorio y el tiempo restante.
+- Marcar tareas como cumplidas.
+- Eliminar recordatorios.
+- Persistencia con `localStorage`.
+- Diseño responsive y amigable para móviles.
+- Fondo personalizado e interfaz clara.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo en línea
 
-## Expanding the ESLint configuration
+Puedes ver y usar la aplicación aquí:  
+👉 [https://valenitnas.github.io/calendario-recordatorios](https://valenitnas.github.io/calendario-recordatorios)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+- GitHub Pages
+
+## 📦 Instalación local
+
+Si deseas ejecutar el proyecto en tu máquina:
+
+```bash
+git clone https://github.com/ValenitnaS/calendario-recordatorios.git
+cd calendario-recordatorios
+npm install
+npm run dev
